@@ -1,27 +1,51 @@
-# React + TypeScript + Vite
+# Todo App with TypeScript and React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Todo app built with TypeScript and React using Vite as the build tool.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run the app locally, follow these steps:
 
-## Expanding the ESLint configuration
+- Requirements 
+  1. Node.js must be installed on your local system.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/LokeshwarPrasad3/Todo-Typescript-React-app.git
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+2. Navigate to the project's root directory:
+   ```
+   cd todo-tsx-app
+   ```
+      Install the project dependencies:
+         ```
+         npm install
+         ```
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+      Start the development server:
+         ```
+         npm run dev
+         ```
+3. By default, the app will be accessible at: 
+   ```
+   http://localhost:5173
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Using a Mobile Browser
+  If you want to use the app on a mobile browser, you can do so by running the development server with a custom host. To do this, run the following command:
+   ```
+   npm run dev -- --host
+
+   ```
+
+## Live Demo
+   Check out the live demo of this project [https://lokeshwar-todo-typescript-app.netlify.com](https://lokeshwar-todo-typescript-app.netlify.com).
+
+
+## Collaboration
+Contributions are welcome!
+
+Your feedback and contributions are highly appreciated. If you find this repository useful, please consider leaving a star ⭐.
+
+HAPPY CODING! 🚀
